@@ -1,0 +1,42 @@
+{
+    // Usare IntelliSense per informazioni sui possibili attributi.
+    // Al passaggio del mouse vengono visualizzate le descrizioni degli attributi esistenti.
+    // Per altre informazioni, visitare: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "type": "java",
+        "name": "Main",
+        "request": "launch",
+        "mainClass": "it.unimib.sd2024.Main",
+        "projectName": "sd-project-database"
+      },
+      {
+        "name": "Java",
+        "type": "java",
+        "request": "launch",
+        "stopOnEntry": true,
+        "jdkPath": "${env:JAVA_HOME}/bin",
+        "cwd": "${fileDirname}",
+        "startupClass": "${fileBasenameNoExtension}",
+        "classpath": [
+          ".",
+          "${fileDirname}"
+        ]
+      },
+      {
+        "name": "Java Console App",
+        "type": "java",
+        "request": "launch",
+        "stopOnEntry": true,
+        "jdkPath": "${env:JAVA_HOME}/bin",
+        "cwd": "${fileDirname}",
+        "startupClass": "${fileBasenameNoExtension}",
+        "classpath": [
+          ".",
+          "${fileDirname}"
+        ],
+        "externalConsole": true
+      }
+    ]
+}

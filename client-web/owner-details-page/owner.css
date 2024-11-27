@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  color: #f6f6f6;
+  background-color: #18191a;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 3rem;
+  height: 100vh;
+}
+@media (min-width: 768px) {
+  html {
+    font-size: 18px;
+  }
+}
+@media (min-width: 1024px) {
+  html {
+    font-size: 20px;
+  }
+}
+@media (min-width: 1440px) {
+  html {
+    font-size: 22px;
+  }
+}
+@media (min-width: 1920px) {
+  html {
+    font-size: 24px;
+  }
+}
+@media (min-width: 2560px) {
+  html {
+    font-size: 26px;
+  }
+}
+h1, h2, h3, h4, h5 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+}
+h1 {
+  font-size: 3rem;
+  line-height: 4rem;
+}
+h2 {
+  font-size: 2.625rem;
+  line-height: 3.5rem;
+}
+h3 {
+  font-size: 2.25rem;
+  line-height: 3rem;
+}
+h4 {
+  font-size: 1.875rem;
+  line-height: 2.5rem;
+}
+h5 {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+h6 {
+  font-size: 1.125rem;
+  line-height: 1.5rem;
+}
+p {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 0.75rem;
+  line-height: 1rem;
+  margin-bottom: 2rem;
+}
+.p-medium {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 0.75rem;
+  line-height: 1rem;
+}
+.logo {
+  width: 11.6666vw;
+  height: auto;
+  margin-bottom: 2rem;
+}
+.title {
+  font-size: 3rem;
+  font-weight: 400;
+  line-height: 4rem;
+  margin-bottom: 15vh;
+}
+.owner-info {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.domain-info {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.info-row {
+  max-width: 80vw;
+  height: 17.7vh;
+  margin-right: 3rem;
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.info-item {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-right: 3rem;
+}
+.label {
+  size: 0.75rem;
+  font-weight: 400;
+}
+.expiration-date {
+  font-size: 2.625rem;
+  color: #747474;
+}
+.name {
+  font-size: 2.625rem;
+  color: #747474;
+}
+.surname {
+  font-size: 2.625rem;
+  color: #747474;
+}
+.email {
+  font-size: 2.625rem;
+  color: #747474;
+  text-decoration: none;
+}
+.email:hover {
+  color: #f6f6f6;
+}
+@media (max-width: 768px) {
+  .background-frame {
+    flex-direction: column;
+    align-items: center;
+  }
+  .actions {
+    margin-top: 1rem;
+  }
+}

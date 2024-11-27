@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Buy Domain</title>
+  <link rel="stylesheet" href="buy.css">
+  <link rel="icon" type="image/svg+xml" href="./images/LogoSquare.svg">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="background-frame">
+    <div class="left-section">
+        <img src="./images/Logo.svg" alt="Logo" class="logo">
+        <h3 class="title">Buy your new domain</h3>
+        <p>The price to buy <span class="domain"></span> domain is going to
+        be:</p>
+        <p class="price"></p>
+    </div>
+
+    <div class="right-section">
+      <form id="domain-purchase-form" autocomplete="off">
+        <div class="input-container">
+          <input type="text" id="duration" name="duration"
+          placeholder="Duration" required>
+        </div>
+        <div class="input-container">
+          <input type="text" id="name" name="cardOwnerName" placeholder="Card owner name" required>
+        </div>
+        <div class="input-container">
+          <input type="text" id="surname" name="cardOwnerSurname"
+          placeholder="Card owner surname" required>
+        </div>
+        <div class="input-container">
+          <input type="text" id="card-number" name="cardNumber"
+          placeholder="Card number" required>
+        </div>
+        <div class="input-row">
+            <div class="input-container">
+              <input type="text" id="expiration-date" name="cardExpirationDate" placeholder="MM/YY" required>
+            </div>
+            <div class="input-container">
+              <input type="text" id="cvv" name="CVV" placeholder="CVV" required>
+            </div>
+        </div>
+        <button type="submit" class="buy-button">Buy</button>
+      </form>
+    </div>
+  </div>
+  <script src="./buy.js"></script>
+</body>
+</html>

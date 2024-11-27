@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Owner Info</title>
+  <link rel="stylesheet" href="./owner.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/svg+xml" href="./images/LogoSquareBlack.svg">
+</head>
+<body>
+  <div class="header">
+    <img src="./images/LogoWhite.svg" alt="Logo" class="logo">
+    <h1 class="title"><span class="domain"></span> is owned by:</h1>
+  </div>
+  <div class="owner-info">
+    <div class="info-row">
+      <div class="info-item">
+        <label class="label">Name:</label>
+        <h2 class="name"></h2>
+      </div>
+      <div class="info-item">
+        <label class="label">Surname:</label>
+        <h2 class="surname"></h2>
+      </div>
+      <div class="info-item">
+        <label class="label">Email:</label>
+        <a href="mailto:" class="email"></a>
+      </div>
+    </div>
+  </div>
+  <div class="domain-info">
+    <label class="label">Expiration Date:</label>
+    <h2 class="expiration-date"></h2>
+  </div>
+  <script src="./owner.js"></script>
+</body>
+</html>

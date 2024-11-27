@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  color: #18191a;
+  background-color: #f6f6f6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+@media (min-width: 768px) {
+  html {
+    font-size: 18px;
+  }
+}
+@media (min-width: 1024px) {
+  html {
+    font-size: 20px;
+  }
+}
+@media (min-width: 1440px) {
+  html {
+    font-size: 22px;
+  }
+}
+@media (min-width: 1920px) {
+  html {
+    font-size: 24px;
+  }
+}
+@media (min-width: 2560px) {
+  html {
+    font-size: 26px;
+  }
+}
+h1, h2, h3, h4, h5 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+}
+h1 {
+  font-size: 3rem;
+  line-height: 4rem;
+}
+h2 {
+  font-size: 2.625rem;
+  line-height: 3.5rem;
+}
+h3 {
+  font-size: 2.25rem;
+  line-height: 3rem;
+}
+h4 {
+  font-size: 1.875rem;
+  line-height: 2.5rem;
+}
+h5 {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+h6 {
+  font-size: 1.125rem;
+  line-height: 1.5rem;
+}
+p {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 0.75rem;
+  line-height: 1rem;
+  margin-bottom: 2rem;
+}
+.p-medium {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 0.75rem;
+  line-height: 1rem;
+}
+.background-frame {
+  width: 83.125vw;
+  max-width: 1596px;
+  height: auto;
+  padding: 3rem;
+  background-color: white;
+  border-radius: 2.5vw;
+  display: flex;
+  align-items: flex-start;
+}
+.left-section {
+  flex: 1;
+}
+.right-section {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+}
+.logo {
+  width: 7.9167vw;
+  height: auto;
+  margin-bottom: 2rem;
+}
+.title {
+  font-size: 2.25rem;
+  margin-bottom: 1rem;
+}
+form {
+  width: 100%;
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+}
+.input-container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+}
+label {
+  display: none;
+}
+input[type="text"],
+input[type="email"] {
+  padding: 0.75rem;
+  font-size: 0.75rem;
+  color: #18191a;
+  border: 1px solid #747474;
+  border-radius: 0.5rem;
+  transition: border-color 0.3s ease;
+}
+input[type="text"]::placeholder,
+input[type="email"]::placeholder {
+  font-size: 0.75rem;
+  color: #747474;
+}
+input[type="text"]:focus,
+input[type="email"]:focus {
+  border-color: #ff4500;
+  outline: none;
+}
+button.register-button {
+  padding: 1rem;
+  font-size: 0.75rem;
+  color: #f6f6f6;
+  background-color: #ff4500;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+button.register-button:hover {
+  background-color: #e03d00;
+}
+@media (max-width: 768px) {
+  .background-frame {
+    flex-direction: column;
+    align-items: center;
+  }
+  .input-row {
+    flex-direction: column;
+  }
+  .input-row .input-container {
+    width: 100%;
+    margin-bottom: 1.5rem;
+  }
+}
